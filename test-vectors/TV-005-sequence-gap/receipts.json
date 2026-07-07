@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "v": "1",
+      "tenant": "test-tenant-001",
+      "seq": "1",
+      "ts": "2026-05-10T19:42:01.123Z",
+      "request_digest": "sha256:19f1064b619d49d35392eac7261cd7266c720671fc594f4b226f32bf0bee74ba",
+      "policy_version": "sha256:72993b6cb83904d39a8c73bd0651aa6251288ede5dbc2c7bcbdc54cc5bbf5d77",
+      "decision": "approve",
+      "reasons": [
+        "auto_approve"
+      ],
+      "prev_receipt": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "sig": {
+      "alg": "EdDSA",
+      "kid": "tenant-key-2026-05",
+      "value": "BXXhebi4gf5ViD88oY5KxsQohZnSvv6L1twxARqEnAySUBqCibegGYLYvQs9WhNbKim8-xPIJUZ6S4-wIxiYBw"
+    }
+  },
+  {
+    "body": {
+      "v": "1",
+      "tenant": "test-tenant-001",
+      "seq": "2",
+      "ts": "2026-05-10T19:42:02.123Z",
+      "request_digest": "sha256:6fc63565247226593c49a36e9da488e6e1c33a9a1fcd8a76f55573483136b880",
+      "policy_version": "sha256:72993b6cb83904d39a8c73bd0651aa6251288ede5dbc2c7bcbdc54cc5bbf5d77",
+      "decision": "approve",
+      "reasons": [
+        "auto_approve"
+      ],
+      "prev_receipt": "sha256:3b36c52e3b07d67f3988017bcc57165d15bcf0470278212951c3ff596687dafc"
+    },
+    "sig": {
+      "alg": "EdDSA",
+      "kid": "tenant-key-2026-05",
+      "value": "fG-7Q0ZJhc6y-v6qwZ03FNbAgOmOdKt6cLsRV_eUgIvNctXhsgoum_9YKYIoqX8vUWORzmpNaaMpRDUjwVjfAw"
+    }
+  },
+  {
+    "body": {
+      "v": "1",
+      "tenant": "test-tenant-001",
+      "seq": "4",
+      "ts": "2026-05-10T19:42:04.123Z",
+      "request_digest": "sha256:48e2ddb76df56f530deebe62057b6a8bad9c688762eeea96ff05c02b5b84668e",
+      "policy_version": "sha256:72993b6cb83904d39a8c73bd0651aa6251288ede5dbc2c7bcbdc54cc5bbf5d77",
+      "decision": "approve",
+      "reasons": [
+        "auto_approve"
+      ],
+      "prev_receipt": "sha256:66fa458e286fe2da64310a2570641869535f1ce4ceea6bc7e2608889a636ad21"
+    },
+    "sig": {
+      "alg": "EdDSA",
+      "kid": "tenant-key-2026-05",
+      "value": "VhnaZ2WbkvjCYg5iHjCR37zECV6OGytOmXOBq3tGaWMMoH4mQ5LYCQ-NGUCWAYxaKMtp_xZs1H_suAh-gL7fCA"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "body": {
+      "v": "1",
+      "tenant": "test-tenant-001",
+      "seq": "1",
+      "ts": "2026-05-10T19:42:00.123Z",
+      "request_digest": "sha256:2fdcf971f36b643f6f04a87c8a0a8ff5640390dc252475c3625467ea10e542c4",
+      "policy_version": "sha256:72993b6cb83904d39a8c73bd0651aa6251288ede5dbc2c7bcbdc54cc5bbf5d77",
+      "decision": "approve",
+      "reasons": [
+        "\u00e9\u00e8\u00ea",
+        "\u4e16\u754c"
+      ],
+      "prev_receipt": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "sig": {
+      "alg": "EdDSA",
+      "kid": "tenant-key-2026-05",
+      "value": "zTB1pN_ddCI1iM7jTr9HJ4j1MadMh3RVxGp1Usv7sY7WLfjYJc63abse8mq_DB6BEDmlpkXEsUATnuH6hxCvBA"
+    }
+  }
+]

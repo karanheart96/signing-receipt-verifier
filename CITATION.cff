@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "Receipt Chain Verification Protocol v0.1 — Starter Repository"
+version: "0.1.0"
+date-released: "2026-05-22"
+repository-code: "https://github.com/karanheart96/signing-receipt-verifier"
+authors:
+  - family-names: "Machado"
+    given-names: "Heartlin"
+    email: "kmachado618@gmail.com"
+license: Apache-2.0
+type: software
+abstract: >
+  A minimal Python verifier and test vector corpus for the Receipt Chain
+  Verification Protocol v0.1. This is a private draft technical review
+  package, not a production release.

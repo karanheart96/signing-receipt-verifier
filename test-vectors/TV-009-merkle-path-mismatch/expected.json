@@ -1,0 +1,8 @@
+{
+  "receipt_integrity": "PASS",
+  "anchor_validity": "FAIL",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "MERKLE_PATH_INVALID"
+  ]
+}

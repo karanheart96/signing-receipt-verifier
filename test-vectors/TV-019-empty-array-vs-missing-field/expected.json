@@ -1,0 +1,9 @@
+{
+  "receipt_integrity": "FAIL",
+  "anchor_validity": "INCONCLUSIVE",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "MISSING_REQUIRED_FIELD"
+  ],
+  "_note": "First receipt (reasons: []) is valid. Second receipt (reasons omitted) fails."
+}

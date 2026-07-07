@@ -1,0 +1,8 @@
+{
+  "receipt_integrity": "FAIL",
+  "anchor_validity": "INCONCLUSIVE",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "KEY_NOT_FOUND"
+  ]
+}

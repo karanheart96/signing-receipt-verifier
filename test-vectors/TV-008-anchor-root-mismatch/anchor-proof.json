@@ -1,0 +1,14 @@
+{
+  "v": "1",
+  "tenant": "test-tenant-001",
+  "range_start": "1",
+  "range_end": "1",
+  "root_alg": "merkle-sha256-v1",
+  "batch_root": "sha256:85fea80a4cf03e766de66f0384921fee2f4004506635c41040bdd8f1b2cf6618",
+  "chain": "base",
+  "chain_id": "8453",
+  "tx": "0xaabbccdd",
+  "commitment_location": "calldata",
+  "commitment_value": "sha256:85fea80a4cf03e766de66f0384921fee2f4004506635c41040bdd8f1b2cf6618",
+  "proofs": []
+}

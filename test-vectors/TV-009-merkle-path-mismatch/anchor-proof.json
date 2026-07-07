@@ -1,0 +1,53 @@
+{
+  "v": "1",
+  "tenant": "test-tenant-001",
+  "range_start": "1",
+  "range_end": "3",
+  "root_alg": "merkle-sha256-v1",
+  "batch_root": "sha256:cd6a864f42bf96461377f790b415ff27cbb109b4ee0ffaf7d0ce595c62cdab7d",
+  "chain": "base",
+  "chain_id": "8453",
+  "tx": "0xdeadbeef",
+  "commitment_location": "calldata",
+  "commitment_value": "sha256:cd6a864f42bf96461377f790b415ff27cbb109b4ee0ffaf7d0ce595c62cdab7d",
+  "proofs": [
+    {
+      "receipt_hash": "sha256:a0737af1418f19f296077d5719ccab073c415bd91ad0c49d4c8cd979b6e592d5",
+      "leaf_index": "0",
+      "merkle_path": [
+        {
+          "position": "right",
+          "hash": "sha256:a8987b92b7e094455320842ace3e43142785cc2aee845496f89b94262a0005b0"
+        },
+        {
+          "position": "right",
+          "hash": "sha256:7c41d04776ad6fa5743527fe4fe036a09bac1c64e5caae808ba7885411ea1ad8"
+        }
+      ]
+    },
+    {
+      "receipt_hash": "sha256:5c7b2205377663f63bed85466c4d8ddb057056b640dac4062fa637e6038b29a9",
+      "leaf_index": "1",
+      "merkle_path": [
+        {
+          "position": "left",
+          "hash": "sha256:a1f518d7726466419e78e34c71a13da6097a9ffda42489c5e307042d40d9ed64"
+        },
+        {
+          "position": "right",
+          "hash": "sha256:b360de921234ee2ca834662e6f765c095fb1be8fcc85a91e486ac6c06cda5148"
+        }
+      ]
+    },
+    {
+      "receipt_hash": "sha256:6b869843b085be72827855a58744f9fb49f2745b8d83858dca4cf784ea716d46",
+      "leaf_index": "2",
+      "merkle_path": [
+        {
+          "position": "left",
+          "hash": "sha256:477f8efec0bd1b86c3a7beb58ac734f2a72849192fb6cd2fbc582599e4d763ea"
+        }
+      ]
+    }
+  ]
+}

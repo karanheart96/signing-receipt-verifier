@@ -1,0 +1,17 @@
+{
+  "tenant": "\u00e9\u00c9\u00ea\u4e16",
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "kid": "tenant-key-2026-05",
+      "use": "sig",
+      "alg": "EdDSA",
+      "x": "VPRRLOI2FEIradZMEWPlHYGV0C0qKFsdN-gT_7J_czE",
+      "not_before": "2026-05-01T00:00:00.000Z",
+      "not_after": "2026-06-01T00:00:00.000Z",
+      "status": "active",
+      "revocation_time": null
+    }
+  ]
+}

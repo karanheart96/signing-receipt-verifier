@@ -1,0 +1,9 @@
+{
+  "receipt_integrity": "PASS",
+  "anchor_validity": "INCONCLUSIVE",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "ANCHOR_UNCHECKED",
+    "COMPLETENESS_NOT_PROVABLE"
+  ]
+}

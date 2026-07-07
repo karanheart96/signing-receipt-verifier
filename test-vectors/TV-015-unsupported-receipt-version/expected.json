@@ -1,0 +1,8 @@
+{
+  "receipt_integrity": "UNSUPPORTED_VERSION",
+  "anchor_validity": "INCONCLUSIVE",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "UNSUPPORTED_RECEIPT_VERSION"
+  ]
+}

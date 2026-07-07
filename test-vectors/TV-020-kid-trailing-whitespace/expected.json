@@ -1,0 +1,9 @@
+{
+  "receipt_integrity": "FAIL",
+  "anchor_validity": "INCONCLUSIVE",
+  "completeness": "INCONCLUSIVE",
+  "expected_errors": [
+    "KEY_NOT_FOUND"
+  ],
+  "_note": "kid with trailing whitespace must not match key without trailing whitespace. Exact string comparison required."
+}
