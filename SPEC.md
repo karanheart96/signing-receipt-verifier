@@ -295,7 +295,7 @@ If `EdDSA` is used, the key SHOULD be represented as an `OKP` JWK with curve `Ed
 
 In v0.1, `request_digest` is an opaque commitment unless the operator discloses the signing request object and its canonicalization profile.
 
-The verifier can prove that a receipt committed to a request digest at signing time. It cannot prove what the request meant unless the request object and schema are available.
+The verifier can verify that a receipt committed to a request digest at signing time. It cannot prove what the request meant unless the request object and schema are available.
 
 ### Optional disclosed request object
 
@@ -324,7 +324,7 @@ This optional object is deliberately not normative in v0.1. The review question 
 
 In v0.1, `policy_version` is an opaque commitment.
 
-The verifier can prove that a receipt references a specific committed policy identifier. It cannot prove the meaning, adequacy, or enforcement coverage of the policy unless the operator discloses the policy bundle and its canonicalization profile.
+The verifier can verify that a receipt references a specific committed policy identifier. It cannot prove the meaning, adequacy, or enforcement coverage of the policy unless the operator discloses the policy bundle and its canonicalization profile.
 
 ### Optional policy bundle
 
@@ -627,7 +627,7 @@ Layer 3 cannot prove global non-omission unless the protocol receives disclosed 
 
 The phrase "no gaps" MUST be interpreted relative to disclosed material.
 
-A verifier can prove that a provided range is dense. It cannot prove that no undisclosed receipt exists outside that range unless the operator has published range commitments, signed checkpoints, or another append-only consistency mechanism covering the relevant time interval.
+A verifier can verify that a provided range is dense. It cannot prove that no undisclosed receipt exists outside that range unless the operator has published range commitments, signed checkpoints, or another append-only consistency mechanism covering the relevant time interval.
 
 ## Error model and output format
 

@@ -21,11 +21,11 @@
 4. `tests/` — pytest test suite covering all vectors, canonicalization, and Merkle construction.
 5. `scripts/generate_vectors.py` — Deterministic test vector generator.
 
-## What the verifier proves
+## What the verifier verifies
 
 The verifier evaluates three independent layers:
 
-| Layer | What it proves |
+| Layer | What it verifies |
 |---|---|
 | **Receipt integrity** | JSON structure is valid, body canonicalizes correctly, hash recomputes, signature verifies under the expected key, key was valid at signing time, sequence links are internally consistent within the disclosed segment |
 | **Anchor validity** | Merkle inclusion proofs recompute the claimed batch root, batch root matches the disclosed commitment value. **The v0.1 verifier does not independently check the on-chain transaction** — if tx evidence is present but unverified, anchor validity is `INCONCLUSIVE`, not `PASS` |
@@ -50,7 +50,7 @@ Results are never collapsed into a single boolean.
 - **Policy adequacy:** the verifier does not prove that the policy in force was complete, reasonable, or commercially sufficient.
 - **Completeness of disclosure:** the verifier does not prove that no receipts were withheld or omitted. It can only detect gaps within disclosed material.
 - **On-chain anchor publication:** the v0.1 verifier operates offline and does not independently confirm that an anchor commitment was actually published on-chain. An unverified `tx` field yields `INCONCLUSIVE`, not `PASS`.
-- **Customer deployment, regulatory acceptance, or loss prevention:** the verifier proves cryptographic consistency properties of disclosed evidence — nothing beyond that.
+- **Customer deployment, regulatory acceptance, or loss prevention:** the verifier verifies cryptographic consistency properties of disclosed evidence — nothing beyond that.
 - **Request contents:** `request_digest` and `policy_version` are treated as opaque commitments unless the operator separately discloses the underlying objects.
 
 ## Requirements
